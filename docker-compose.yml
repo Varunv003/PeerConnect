@@ -6,6 +6,8 @@ services:
     expose:
       - "8080"
       - "49152-65535"
+    ports:
+      - "8080:8080"   # Added to allow host access to backend
     networks:
       - app-network
 
