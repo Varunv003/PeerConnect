@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: ./peerconnect
+      dockerfile: Dockerfile.backend
+    expose:
+      - "8080"
+      - "49152-65535"
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
