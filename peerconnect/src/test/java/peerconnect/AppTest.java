@@ -1,4 +1,4 @@
-package peertoconnect;
+package peerconnect;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

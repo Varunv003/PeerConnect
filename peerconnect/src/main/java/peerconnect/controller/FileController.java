@@ -1,10 +1,10 @@
-package peertoconnect.controller;
+package peerconnect.controller;
 
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import peertoconnect.service.FileSharer;
+import peerconnect.service.FileSharer;
 
 import java.io.*;
 import java.net.InetSocketAddress;

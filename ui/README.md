@@ -1,6 +1,7 @@
-# PeerLink UI
+# PeerConnect UI
 
-This is the frontend UI for the PeerLink P2P file sharing application. It's built with Next.js, TypeScript, and Tailwind CSS.
+PeerConnect UI
+This is the frontend UI for PeerConnect, a lightweight and secure file sharing application built using custom HTTP and socket programming in Java (backend) and a modern React + Next.js stack (frontend).
 
 ## Features
 
@@ -65,8 +66,9 @@ To start the backend server:
 
 ```bash
 cd ..  # Go back to the project root
+cd peerconnect
 mvn clean package
-java -jar target/p2p-1.0-SNAPSHOT.jar
+java -jar target/peerconnect.jar 
 ```
 
 ## Project Structure

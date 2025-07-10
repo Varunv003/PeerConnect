@@ -1,9 +1,9 @@
-package peertoconnect.service;
+package peerconnect.service;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.RemovalListener;
-import peertoconnect.utils.PortUtils;
+import peerconnect.utils.PortUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

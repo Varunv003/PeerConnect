@@ -1,6 +1,5 @@
-# Stage 1: Build
+# Stage 1: Build the Next.js static site
 FROM node:18-alpine AS builder
-RUN apk update && apk upgrade --no-cache
 WORKDIR /app
 COPY package*.json ./
 RUN npm install

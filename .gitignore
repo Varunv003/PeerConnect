@@ -11,6 +11,8 @@ target/
 .classpath
 .project
 .vscode
+dependency-reduced-pom.xml
+
 
 # Node.js
 ui/node_modules/

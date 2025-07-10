@@ -1,4 +1,4 @@
-package peertoconnect.utils;
+package peerconnect.utils;
 
 import java.util.Random;
 

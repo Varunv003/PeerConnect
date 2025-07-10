@@ -27,11 +27,11 @@ A lightweight file sharing tool that supports large file uploads and downloads t
 
 ## 📦 Tech Stack
 
-| Area         | Tech Used                                 |
-|--------------|-------------------------------------------|
-| Backend      | Java (JDK 21), Raw HTTP, Sockets, Threads |
-| Frontend     | Next.Js                                   |
-| Packaging    | Docker, Docker Compose                    |
+| Area         | Tech Used                                        |
+|--------------|--------------------------------------------------|
+| Backend      | Java (JDK 21), Raw HTTP, Sockets, Threads, Maven |
+| Frontend     | Next.Js                                          |
+| Packaging    | Docker, Docker Compose                           |
 
 
 ---
@@ -46,3 +46,12 @@ git https://github.com/Varunv003/PeerConnect
 
 # Build and start
 docker-compose up --build
+```
+
+### Stopping the Application:
+
+To stop the application, navigate to the project directory (where the `docker-compose.yml` file is located) and run:
+
+```bash
+docker-compose down
+```
